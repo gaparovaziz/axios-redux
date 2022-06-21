@@ -24,10 +24,12 @@ function App() {
   let outputPosts = posts.map(post => <li key={post.id}>{post.title}</li>)
   return (
     <div>
-      <ul>
+      <h3 style={{textAlign: 'center'}}>Users:</h3>
+      <ul style={{textAlign: 'center'}}>
         {output}
       </ul>
-      <ul>
+      <h3 style={{textAlign: 'center'}}>Post's title</h3>
+      <ul style={{textAlign: 'center'}}>
         {outputPosts}
       </ul>
     </div>
